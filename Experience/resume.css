@@ -66,23 +66,64 @@ header .page-image{
   height: 200px;
 }
 header .sub-title{
-  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+.sub-title{
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  text-align: left;
   background: #fff;
-  border-bottom: 4px solid rgb(245, 166, 64);
+  border-bottom: 4px solid rgb(255, 161, 38);
   border-radius: 6px;
   transition: all .5s;
 }
-.first-p{
+.skills{
   text-align: left;
   border-radius: 4px;
-  background: #ff9904;
   color: white;
   padding: 5px 10px;
   margin: 10px;
+  width: fit-content;
 }
-.skills{
+.skills li{
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+.card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
   text-align: left;
+  background: #fff;
+  border-bottom: 4px solid rgb(70, 172, 255);
+  border-radius: 6px;
+  transition: all .5s;
+}
+ul .stitle{
+  padding: 0;
+  text-align: center;
+}
+.work li{
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+.work li:nth-child(odd) {
+  background: #0399ff;
 }
