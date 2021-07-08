@@ -52,7 +52,7 @@ a:hover{
 
 header {
   text-align: center;
-  background: url('img/exp.png') no-repeat top center ;
+  background: url('C:\Users\migue\OneDrive\Documents\Code\Project-1\img\new.jpg') no-repeat top center ;
   background-size:cover;
   overflow: hidden;
   padding-top: 60px;
@@ -62,7 +62,7 @@ header{
 }
 header .page-image{
   margin-top: 50px;
-  width: 250px;
+  width: 500px;
   height: 200px;
 }
 header .sub-title{
@@ -148,4 +148,24 @@ ul .stitle{
 }
 .work li:nth-child(odd) {
   background: #0399ff;
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
 }
