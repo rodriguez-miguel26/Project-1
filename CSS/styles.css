@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/rsz_photography.jpg') no-repeat top center ;
+  background: url('../img/rsz_photography.jpg') no-repeat, top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -199,9 +199,93 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
+    max-width: 1200px; 
     margin: 40px auto;
   }
 
 }
+/*resume style sheet*/
 
+.main-navi {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.navi {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navi .names {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.navi li {
+  padding: 5px 10px 10px 10px;
+}
+.navi a {
+  transition: all .5s;
+}
+.navi a:hover {
+  color: white
+}
+.sub-title{
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 0px auto;
+}
+.work li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+.work li:nth-child(odd) {
+  background: #0399ff;
+}
+
+/*Hobbies style sheet*/
+.main-navigation {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navigation .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.navigation li {
+  padding: 5px 10px 10px 10px;
+}
+.navigation a {
+  transition: all .5s;
+}
+.navigation a:hover {
+  color: white
+}
