@@ -298,3 +298,9 @@ header .exp-image:hover {
 .navigation a:hover {
   color: white
 }
+.hobbies-img{
+  border-radius: 100%;
+  width: 300px;
+  border: 3px solid black;
+  justify-content: space-around;
+}
